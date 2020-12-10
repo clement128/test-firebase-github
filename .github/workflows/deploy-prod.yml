@@ -1,12 +1,9 @@
 name: Deploy to Live Channel
 
 on:
-  push:
-    branches:
-      - master
-    # Optionally configure to run only for specific files. For example:
-    # paths:
-    # - "website/**"
+  release:
+    types:
+      - created
 
 jobs:
   build_and_preview:
