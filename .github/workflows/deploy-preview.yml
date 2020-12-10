@@ -19,5 +19,6 @@ jobs:
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
           expires: 30d
           projectId: unicorn-uat
+          target: test-firebase-chancel-2
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
